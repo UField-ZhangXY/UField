@@ -1,0 +1,13 @@
+<Slide style={{ width: 1280, height: 720, background: '#123B3C', position: 'relative' }}>
+    <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720 }}>
+        <Image src='assets/dark_cover.png' style={{ width: 1280, height: 720, objectFit: 'cover' }} />
+    </Box>
+    <Box style={{ position: 'absolute', top: 250, left: 120, width: 1040, alignItems: 'center' }}>
+        <Text style={{ fontSize: 96, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 24, fontFamily: '方正姚体', textShadow: '0 3px 20px rgba(6,26,44,0.75)' }}>自然流现</Text>
+        <Box style={{ width: 90, height: 4, background: '#EC9804', marginTop: 40, borderRadius: 2 }} />
+        <Text style={{ fontSize: 16, color: 'rgba(255,255,255,0.88)', marginTop: 28, letterSpacing: 4, textShadow: '0 1px 8px rgba(6,26,44,0.7)', fontFamily: '幼圆' }}>大字转场页占位：一句话点题，让它独自呼吸</Text>
+    </Box>
+    <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+        <Text style={{ fontSize: 12, color: 'rgba(255,255,255,0.6)' }}>@PAGE@ / @PAGES@</Text>
+    </Box>
+</Slide>

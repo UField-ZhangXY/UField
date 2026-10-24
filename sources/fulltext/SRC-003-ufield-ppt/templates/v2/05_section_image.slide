@@ -1,0 +1,14 @@
+<Slide style={{ width: 1280, height: 720, background: '#4E7A2B', position: 'relative' }}>
+    <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720 }}>
+        <Image src='assets/circle_sprout.jpg' style={{ width: 1280, height: 720, objectFit: 'cover' }} />
+    </Box>
+    <Box style={{ position: 'absolute', top: 196, left: 140, width: 1000, alignItems: 'center' }}>
+        <Text style={{ fontSize: 15, color: 'rgba(255,255,255,0.85)' }}>C H A P T E R · 0 1</Text>
+        <Text style={{ fontSize: 54, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 8, marginTop: 26, fontFamily: '方正姚体', textShadow: '0 2px 16px rgba(30,60,20,0.55)' }}>章节标题占位</Text>
+        <Box style={{ width: 72, height: 4, background: '#EC9804', marginTop: 28, borderRadius: 2 }} />
+        <Text style={{ fontSize: 17, color: 'rgba(255,255,255,0.93)', marginTop: 24, lineHeight: 1.7, textShadow: '0 1px 8px rgba(30,60,20,0.5)', fontFamily: '幼圆' }}>章节引导语占位：一句话说清这一章讲什么、为什么重要。</Text>
+    </Box>
+    <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+        <Text style={{ fontSize: 12, color: 'rgba(255,255,255,0.7)' }}>@PAGE@ / @PAGES@</Text>
+    </Box>
+</Slide>

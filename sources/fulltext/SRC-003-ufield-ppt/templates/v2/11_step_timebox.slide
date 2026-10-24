@@ -1,0 +1,58 @@
+<Slide style={{ width: 1280, height: 720, background: '#FDFBF7', flexDirection: 'row' }}>
+    <Box style={{ width: 86, height: 720, position: 'relative' }}>
+        <Image src='assets/side_bar.png' style={{ width: 86, height: 720 }} />
+        <Box style={{ position: 'absolute', top: 29, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>陪育商业新生态</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 363, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>催化集体创造力</Text>
+        </Box>
+    </Box>
+    <Box style={{ flex: 1, position: 'relative', padding: 44 }}>
+        <Box style={{ position: 'absolute', top: 38, right: 44 }}>
+            <Image src='assets/ufield_logo.png' style={{ width: 96, height: 49 }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#3D4A4F', fontFamily: '幼圆' }}>步骤名称占位</Text>
+        </Box>
+        <Box style={{ height: 3, background: '#EC9804', marginTop: 16 }} />
+        <Box style={{ flexDirection: 'row', gap: 40, marginTop: 30, height: 450 }}>
+            <Box style={{ flex: 1, flexDirection: 'column', gap: 28 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+                    <Box style={{ background: '#EC9804', borderRadius: 8, padding: 10 }}>
+                        <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#FFFFFF' }}>00:00 – 00:02</Text>
+                    </Box>
+                    <Text style={{ fontSize: 15, color: '#8A9296', fontFamily: '幼圆' }}>时长占位 · 2 分钟</Text>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 16, alignItems: 'flex-start' }}>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#018985' }}>1</Text>
+                    <Box>
+                        <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>要点标题占位一</Text>
+                        <Text style={{ fontSize: 14, color: '#5F6B6E', marginTop: 8, lineHeight: 1.65, fontFamily: '幼圆' }}>要点描述占位：过程中的<span style={{ color: '#EC9804', fontWeight: 'bold' }}>重点词高亮</span>，让眼睛先落到这里。</Text>
+                    </Box>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 16, alignItems: 'flex-start' }}>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#EC9804' }}>2</Text>
+                    <Box>
+                        <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>要点标题占位二</Text>
+                        <Text style={{ fontSize: 14, color: '#5F6B6E', marginTop: 8, lineHeight: 1.65, fontFamily: '幼圆' }}>要点描述占位：写清楚这个环节里<span style={{ color: '#018985', fontWeight: 'bold' }}>谁做什么</span>、做到什么程度。</Text>
+                    </Box>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 16, alignItems: 'flex-start' }}>
+                    <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#02604F' }}>3</Text>
+                    <Box>
+                        <Text style={{ fontSize: 19, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>要点标题占位三</Text>
+                        <Text style={{ fontSize: 14, color: '#5F6B6E', marginTop: 8, lineHeight: 1.65, fontFamily: '幼圆' }}>要点描述占位：收束到这一步的产出或注意事项。</Text>
+                    </Box>
+                </Box>
+            </Box>
+            <Box style={{ width: 380, height: 420, justifyContent: 'center', alignItems: 'center' }}>
+                <Image src='assets/unity_circle.png' style={{ width: 360, height: 360, objectFit: 'contain' }} />
+                <Text style={{ fontSize: 13, color: '#8A9296', marginTop: 10, fontFamily: '幼圆' }}>此处放手绘 / 流程图占位</Text>
+            </Box>
+        </Box>
+        <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+            <Text style={{ fontSize: 12, color: '#8A9296' }}>@PAGE@ / @PAGES@</Text>
+        </Box>
+    </Box>
+</Slide>

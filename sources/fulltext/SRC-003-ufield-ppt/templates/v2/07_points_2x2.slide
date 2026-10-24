@@ -1,0 +1,67 @@
+<Slide style={{ width: 1280, height: 720, background: '#FDFBF7', flexDirection: 'row' }}>
+    <Box style={{ width: 86, height: 720, position: 'relative' }}>
+        <Image src='assets/side_bar.png' style={{ width: 86, height: 720 }} />
+        <Box style={{ position: 'absolute', top: 29, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>陪育商业新生态</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 363, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>催化集体创造力</Text>
+        </Box>
+    </Box>
+    <Box style={{ flex: 1, position: 'relative', padding: 44 }}>
+        <Box style={{ position: 'absolute', top: 38, right: 44 }}>
+            <Image src='assets/ufield_logo.png' style={{ width: 96, height: 49 }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Box>
+                <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#3D4A4F', fontFamily: '幼圆' }}>页面标题占位</Text>
+                <Text style={{ fontSize: 15, color: '#8A9296', marginTop: 10, fontFamily: '幼圆' }}>副标题占位：本页从四个视角展开。</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 44, marginTop: 44 }}>
+            <Box style={{ width: 505, gap: 42 }}>
+                <Box style={{ flexDirection: 'row', gap: 20, alignItems: 'flex-start' }}>
+                    <Box style={{ width: 30, height: 30, borderRadius: 15, background: 'rgba(1,137,133,0.16)', justifyContent: 'center', alignItems: 'center', marginTop: 2 }}>
+                        <Box style={{ width: 12, height: 12, borderRadius: 6, background: '#018985' }} />
+                    </Box>
+                    <Box>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>观点标题占位一</Text>
+                        <Text style={{ fontSize: 14, color: '#8A9296', marginTop: 8, lineHeight: 1.6, fontFamily: '幼圆' }}>观点描述占位：一句话讲清楚它的含义与价值。</Text>
+                    </Box>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 20, alignItems: 'flex-start' }}>
+                    <Box style={{ width: 30, height: 30, borderRadius: 15, background: 'rgba(236,152,4,0.18)', justifyContent: 'center', alignItems: 'center', marginTop: 2 }}>
+                        <Box style={{ width: 12, height: 12, borderRadius: 6, background: '#EC9804' }} />
+                    </Box>
+                    <Box>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>观点标题占位二</Text>
+                        <Text style={{ fontSize: 14, color: '#8A9296', marginTop: 8, lineHeight: 1.6, fontFamily: '幼圆' }}>观点描述占位：一句话讲清楚它的含义与价值。</Text>
+                    </Box>
+                </Box>
+            </Box>
+            <Box style={{ width: 505, gap: 42 }}>
+                <Box style={{ flexDirection: 'row', gap: 20, alignItems: 'flex-start' }}>
+                    <Box style={{ width: 30, height: 30, borderRadius: 15, background: 'rgba(2,96,79,0.16)', justifyContent: 'center', alignItems: 'center', marginTop: 2 }}>
+                        <Box style={{ width: 12, height: 12, borderRadius: 6, background: '#02604F' }} />
+                    </Box>
+                    <Box>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>观点标题占位三</Text>
+                        <Text style={{ fontSize: 14, color: '#8A9296', marginTop: 8, lineHeight: 1.6, fontFamily: '幼圆' }}>观点描述占位：一句话讲清楚它的含义与价值。</Text>
+                    </Box>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 20, alignItems: 'flex-start' }}>
+                    <Box style={{ width: 30, height: 30, borderRadius: 15, background: 'rgba(44,62,63,0.14)', justifyContent: 'center', alignItems: 'center', marginTop: 2 }}>
+                        <Box style={{ width: 12, height: 12, borderRadius: 6, background: '#2C3E3F' }} />
+                    </Box>
+                    <Box>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>观点标题占位四</Text>
+                        <Text style={{ fontSize: 14, color: '#8A9296', marginTop: 8, lineHeight: 1.6, fontFamily: '幼圆' }}>观点描述占位：一句话讲清楚它的含义与价值。</Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+        <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+            <Text style={{ fontSize: 12, color: '#8A9296' }}>@PAGE@ / @PAGES@</Text>
+        </Box>
+    </Box>
+</Slide>

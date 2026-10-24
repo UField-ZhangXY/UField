@@ -1,0 +1,96 @@
+<Slide style={{ width: 1280, height: 720, background: '#FDFBF7', flexDirection: 'row' }}>
+    <Box style={{ width: 86, height: 720, position: 'relative' }}>
+        <Image src='assets/side_bar.png' style={{ width: 86, height: 720 }} />
+        <Box style={{ position: 'absolute', top: 29, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>陪育商业新生态</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 363, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>催化集体创造力</Text>
+        </Box>
+    </Box>
+    <Box style={{ flex: 1, position: 'relative', padding: 44 }}>
+        <Box style={{ position: 'absolute', top: 38, right: 44 }}>
+            <Image src='assets/ufield_logo.png' style={{ width: 96, height: 49 }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Box>
+                <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#3D4A4F', fontFamily: '幼圆' }}>工具地图占位</Text>
+                <Text style={{ fontSize: 15, color: '#8A9296', marginTop: 10, fontFamily: '幼圆' }}>副标题占位：一张图看清这一章用到的全部工具。</Text>
+            </Box>
+        </Box>
+        <Box style={{ flexDirection: 'row', gap: 18, marginTop: 30 }}>
+            <Box style={{ flex: 1, gap: 18 }}>
+                <Box style={{ height: 108, background: '#EAF4F0', borderRadius: 12, padding: 16 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#018985' }} />
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>工具占位一</Text>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#5F6B6E', marginTop: 8, lineHeight: 1.5, fontFamily: '幼圆' }}>一句话说明这个工具用来做什么。</Text>
+                </Box>
+                <Box style={{ height: 108, background: '#EAF4F0', borderRadius: 12, padding: 16 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#018985' }} />
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>工具占位四</Text>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#5F6B6E', marginTop: 8, lineHeight: 1.5, fontFamily: '幼圆' }}>一句话说明这个工具用来做什么。</Text>
+                </Box>
+                <Box style={{ height: 108, background: '#EAF4F0', borderRadius: 12, padding: 16 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#018985' }} />
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>工具占位七</Text>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#5F6B6E', marginTop: 8, lineHeight: 1.5, fontFamily: '幼圆' }}>一句话说明这个工具用来做什么。</Text>
+                </Box>
+            </Box>
+            <Box style={{ flex: 1, gap: 18 }}>
+                <Box style={{ height: 108, background: '#FBF1E2', borderRadius: 12, padding: 16 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#EC9804' }} />
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>工具占位二</Text>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#5F6B6E', marginTop: 8, lineHeight: 1.5, fontFamily: '幼圆' }}>一句话说明这个工具用来做什么。</Text>
+                </Box>
+                <Box style={{ height: 108, background: '#FBF1E2', borderRadius: 12, padding: 16 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#EC9804' }} />
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>工具占位五</Text>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#5F6B6E', marginTop: 8, lineHeight: 1.5, fontFamily: '幼圆' }}>一句话说明这个工具用来做什么。</Text>
+                </Box>
+                <Box style={{ height: 108, background: '#FBF1E2', borderRadius: 12, padding: 16 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#EC9804' }} />
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>工具占位八</Text>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#5F6B6E', marginTop: 8, lineHeight: 1.5, fontFamily: '幼圆' }}>一句话说明这个工具用来做什么。</Text>
+                </Box>
+            </Box>
+            <Box style={{ flex: 1, gap: 18 }}>
+                <Box style={{ height: 108, background: '#EDF0F5', borderRadius: 12, padding: 16 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#31456B' }} />
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>工具占位三</Text>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#5F6B6E', marginTop: 8, lineHeight: 1.5, fontFamily: '幼圆' }}>一句话说明这个工具用来做什么。</Text>
+                </Box>
+                <Box style={{ height: 108, background: '#EDF0F5', borderRadius: 12, padding: 16 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#31456B' }} />
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>工具占位六</Text>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#5F6B6E', marginTop: 8, lineHeight: 1.5, fontFamily: '幼圆' }}>一句话说明这个工具用来做什么。</Text>
+                </Box>
+                <Box style={{ height: 108, background: '#EDF0F5', borderRadius: 12, padding: 16 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#31456B' }} />
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>工具占位九</Text>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#5F6B6E', marginTop: 8, lineHeight: 1.5, fontFamily: '幼圆' }}>一句话说明这个工具用来做什么。</Text>
+                </Box>
+            </Box>
+        </Box>
+        <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+            <Text style={{ fontSize: 12, color: '#8A9296' }}>@PAGE@ / @PAGES@</Text>
+        </Box>
+    </Box>
+</Slide>

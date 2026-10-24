@@ -1,0 +1,14 @@
+<Slide style={{ width: 1280, height: 720, background: '#6FA8A5', position: 'relative' }}>
+    <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720 }}>
+        <Image src='assets/cover_earth.jpg' style={{ width: 1280, height: 720, objectFit: 'cover' }} />
+    </Box>
+    <Box style={{ position: 'absolute', top: 163, left: 120, width: 1040, alignItems: 'center' }}>
+        <Image src='assets/ufield_logo_shadow.png' style={{ width: 133, height: 71 }} />
+        <Text style={{ fontSize: 58, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 6, marginTop: 24, fontFamily: '方正姚体', textShadow: '0 2px 16px rgba(16,61,64,0.6)' }}>演示主题标题占位</Text>
+        <Box style={{ width: 72, height: 4, background: '#EC9804', marginTop: 30, borderRadius: 2 }} />
+        <Text style={{ fontSize: 18, color: 'rgba(255,255,255,0.95)', marginTop: 26, textShadow: '0 1px 8px rgba(16,61,64,0.55)' }}>副标题占位：在青绿的场域里，看见正在生成的未来</Text>
+    </Box>
+    <Box style={{ position: 'absolute', bottom: 40, left: 64 }}>
+        <Text style={{ fontSize: 14, color: 'rgba(255,255,255,0.92)', textShadow: '0 1px 6px rgba(16,61,64,0.5)' }}>汇报人占位 · 2026.XX.XX</Text>
+    </Box>
+</Slide>

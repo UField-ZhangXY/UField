@@ -1,0 +1,13 @@
+<Slide style={{ width: 1280, height: 720, background: '#2B5E8C', position: 'relative' }}>
+    <Box style={{ position: 'absolute', top: 0, left: 0, width: 1280, height: 720 }}>
+        <Image src='assets/earth_people.png' style={{ width: 1280, height: 720, objectFit: 'cover' }} />
+    </Box>
+    <Box style={{ position: 'absolute', top: 232, left: 120, width: 1040, alignItems: 'center' }}>
+        <Text style={{ fontSize: 64, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 20, fontFamily: '方正姚体', textShadow: '0 2px 16px rgba(10,40,60,0.7)' }}>谢谢聆听</Text>
+        <Box style={{ width: 72, height: 4, background: '#EC9804', marginTop: 36, borderRadius: 2 }} />
+        <Text style={{ fontSize: 17, color: 'rgba(255,255,255,0.92)', marginTop: 30, textShadow: '0 1px 8px rgba(10,40,60,0.65)', fontFamily: '幼圆' }}>UField · 陪育商业新生态 · 催化集体创造力</Text>
+    </Box>
+    <Box style={{ position: 'absolute', bottom: 40, left: 64 }}>
+        <Text style={{ fontSize: 14, color: 'rgba(255,255,255,0.85)', textShadow: '0 1px 6px rgba(10,40,60,0.6)', fontFamily: '幼圆' }}>联系方式占位 · 2026.XX.XX</Text>
+    </Box>
+</Slide>

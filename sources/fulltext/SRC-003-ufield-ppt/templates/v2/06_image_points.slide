@@ -1,0 +1,52 @@
+<Slide style={{ width: 1280, height: 720, background: '#FDFBF7', flexDirection: 'row' }}>
+    <Box style={{ width: 86, height: 720, position: 'relative' }}>
+        <Image src='assets/side_bar.png' style={{ width: 86, height: 720 }} />
+        <Box style={{ position: 'absolute', top: 29, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>陪育商业新生态</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 363, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>催化集体创造力</Text>
+        </Box>
+    </Box>
+    <Box style={{ flex: 1, position: 'relative', padding: 44 }}>
+        <Box style={{ position: 'absolute', top: 38, right: 44 }}>
+            <Image src='assets/ufield_logo.png' style={{ width: 96, height: 49 }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#3D4A4F', fontFamily: '幼圆' }}>页面标题占位</Text>
+        </Box>
+        <Box style={{ height: 3, background: '#EC9804', marginTop: 16 }} />
+        <Box style={{ flexDirection: 'row', gap: 40, marginTop: 32, height: 450 }}>
+            <Box style={{ width: 500, height: 410, justifyContent: 'center', alignItems: 'center' }}>
+                <Image src='assets/art_closing.png' style={{ width: 500, height: 360, objectFit: 'cover', borderRadius: 16 }} />
+                <Text style={{ fontSize: 13, color: '#8A9296', marginTop: 14, fontFamily: '幼圆' }}>此处放手绘视觉 / 图片占位</Text>
+            </Box>
+            <Box style={{ flex: 1, flexDirection: 'column', justifyContent: 'center', gap: 34 }}>
+                <Box style={{ flexDirection: 'row', gap: 18, alignItems: 'flex-start' }}>
+                    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#018985' }}>01</Text>
+                    <Box>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#3D4A4F', fontFamily: '幼圆' }}>要点标题占位一</Text>
+                        <Text style={{ fontSize: 15, color: '#8A9296', marginTop: 8, lineHeight: 1.6, fontFamily: '幼圆' }}>要点描述占位：用一句话说明这个要点的内涵。</Text>
+                    </Box>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 18, alignItems: 'flex-start' }}>
+                    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#EC9804' }}>02</Text>
+                    <Box>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#3D4A4F', fontFamily: '幼圆' }}>要点标题占位二</Text>
+                        <Text style={{ fontSize: 15, color: '#8A9296', marginTop: 8, lineHeight: 1.6, fontFamily: '幼圆' }}>要点描述占位：补充一个例子或数据支撑。</Text>
+                    </Box>
+                </Box>
+                <Box style={{ flexDirection: 'row', gap: 18, alignItems: 'flex-start' }}>
+                    <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#02604F' }}>03</Text>
+                    <Box>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#3D4A4F', fontFamily: '幼圆' }}>要点标题占位三</Text>
+                        <Text style={{ fontSize: 15, color: '#8A9296', marginTop: 8, lineHeight: 1.6, fontFamily: '幼圆' }}>要点描述占位：收束到行动或下一步。</Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+        <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+            <Text style={{ fontSize: 12, color: '#8A9296' }}>@PAGE@ / @PAGES@</Text>
+        </Box>
+    </Box>
+</Slide>

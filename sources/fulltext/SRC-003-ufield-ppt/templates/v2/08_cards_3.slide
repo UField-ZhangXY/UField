@@ -1,0 +1,55 @@
+<Slide style={{ width: 1280, height: 720, background: '#FDFBF7', flexDirection: 'row' }}>
+    <Box style={{ width: 86, height: 720, position: 'relative' }}>
+        <Image src='assets/side_bar.png' style={{ width: 86, height: 720 }} />
+        <Box style={{ position: 'absolute', top: 29, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>陪育商业新生态</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 363, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>催化集体创造力</Text>
+        </Box>
+    </Box>
+    <Box style={{ flex: 1, position: 'relative', padding: 44 }}>
+        <Box style={{ position: 'absolute', top: 38, right: 44 }}>
+            <Image src='assets/ufield_logo.png' style={{ width: 96, height: 49 }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#3D4A4F', fontFamily: '幼圆' }}>页面标题占位</Text>
+        </Box>
+        <Box style={{ height: 3, background: '#018985', marginTop: 16 }} />
+        <Box style={{ flexDirection: 'row', gap: 28, marginTop: 34, height: 430 }}>
+            <Box style={{ flex: 1, background: '#EAF4F0', borderRadius: 18, padding: 28 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                    <Box style={{ width: 12, height: 12, borderRadius: 6, background: '#018985' }} />
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#02604F', letterSpacing: 3 }}>01</Text>
+                </Box>
+                <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#2C3E3F', marginTop: 20, fontFamily: '幼圆' }}>卡片标题占位一</Text>
+                <Box style={{ width: 36, height: 3, background: '#018985', marginTop: 14, borderRadius: 2 }} />
+                <Text style={{ fontSize: 14, color: '#5F6B6E', marginTop: 18, lineHeight: 1.75, fontFamily: '幼圆' }}>卡片正文占位：用两三句话描述这一栏的核心内容，保持呼吸感，不要堆满。</Text>
+                <Text style={{ fontSize: 13, color: '#8A9296', marginTop: 22, fontFamily: '幼圆' }}>关键词占位 · 关键词占位</Text>
+            </Box>
+            <Box style={{ flex: 1, background: '#FBF1E2', borderRadius: 18, padding: 28 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                    <Box style={{ width: 12, height: 12, borderRadius: 6, background: '#EC9804' }} />
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#9C6208', letterSpacing: 3 }}>02</Text>
+                </Box>
+                <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#2C3E3F', marginTop: 20, fontFamily: '幼圆' }}>卡片标题占位二</Text>
+                <Box style={{ width: 36, height: 3, background: '#EC9804', marginTop: 14, borderRadius: 2 }} />
+                <Text style={{ fontSize: 14, color: '#5F6B6E', marginTop: 18, lineHeight: 1.75, fontFamily: '幼圆' }}>卡片正文占位：用两三句话描述这一栏的核心内容，保持呼吸感，不要堆满。</Text>
+                <Text style={{ fontSize: 13, color: '#8A9296', marginTop: 22, fontFamily: '幼圆' }}>关键词占位 · 关键词占位</Text>
+            </Box>
+            <Box style={{ flex: 1, background: '#EDF0F5', borderRadius: 18, padding: 28 }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                    <Box style={{ width: 12, height: 12, borderRadius: 6, background: '#31456B' }} />
+                    <Text style={{ fontSize: 14, fontWeight: 'bold', color: '#31456B', letterSpacing: 3 }}>03</Text>
+                </Box>
+                <Text style={{ fontSize: 21, fontWeight: 'bold', color: '#2C3E3F', marginTop: 20, fontFamily: '幼圆' }}>卡片标题占位三</Text>
+                <Box style={{ width: 36, height: 3, background: '#31456B', marginTop: 14, borderRadius: 2 }} />
+                <Text style={{ fontSize: 14, color: '#5F6B6E', marginTop: 18, lineHeight: 1.75, fontFamily: '幼圆' }}>卡片正文占位：用两三句话描述这一栏的核心内容，保持呼吸感，不要堆满。</Text>
+                <Text style={{ fontSize: 13, color: '#8A9296', marginTop: 22, fontFamily: '幼圆' }}>关键词占位 · 关键词占位</Text>
+            </Box>
+        </Box>
+        <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+            <Text style={{ fontSize: 12, color: '#8A9296' }}>@PAGE@ / @PAGES@</Text>
+        </Box>
+    </Box>
+</Slide>

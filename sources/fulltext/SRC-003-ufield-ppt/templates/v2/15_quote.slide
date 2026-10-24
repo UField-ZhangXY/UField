@@ -1,0 +1,17 @@
+<Slide style={{ width: 1280, height: 720, background: '#FDFBF7', position: 'relative' }}>
+    <Box style={{ position: 'absolute', right: 72, bottom: 64, width: 430, height: 430, justifyContent: 'center', alignItems: 'center' }}>
+        <Image src='assets/quote_figure.png' style={{ width: 410, height: 410, objectFit: 'contain' }} />
+    </Box>
+    <Box style={{ position: 'absolute', top: 118, left: 96, width: 640 }}>
+        <Text style={{ fontSize: 96, fontWeight: 'bold', color: 'rgba(1,137,133,0.22)', height: 96 }}>“</Text>
+        <Text style={{ fontSize: 30, color: '#2C3E3F', lineHeight: 1.9, fontFamily: 'KaiTi', marginTop: 8 }}>金句占位：在这里放一句足以点亮全场的话，让它独自呼吸。</Text>
+        <Box style={{ width: 56, height: 5, background: '#EC9804', borderRadius: 3, marginTop: 40 }} />
+        <Text style={{ fontSize: 15, color: '#8A9296', marginTop: 26, letterSpacing: 2, fontFamily: '幼圆' }}>—— 出处 / 作者占位</Text>
+    </Box>
+    <Box style={{ position: 'absolute', top: 48, left: 56 }}>
+        <Image src='assets/ufield_logo.png' style={{ width: 110, height: 56 }} />
+    </Box>
+    <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+        <Text style={{ fontSize: 12, color: '#8A9296' }}>@PAGE@ / @PAGES@</Text>
+    </Box>
+</Slide>

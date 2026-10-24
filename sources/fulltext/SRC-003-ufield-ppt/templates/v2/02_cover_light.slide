@@ -1,0 +1,22 @@
+<Slide style={{ width: 1280, height: 720, background: '#FDFBF7', position: 'relative' }}>
+    <Box style={{ position: 'absolute', top: 48, left: 56 }}>
+        <Image src='assets/ufield_logo.png' style={{ width: 150, height: 77 }} />
+    </Box>
+    <Box style={{ position: 'absolute', top: 212, left: 96, width: 640 }}>
+        <Text style={{ fontSize: 15, color: '#EC9804', letterSpacing: 8, fontWeight: 'bold' }}>UFIELD PRESENTATION</Text>
+        <Text style={{ fontSize: 52, fontWeight: 'bold', color: '#02604F', marginTop: 24, lineHeight: 1.35, fontFamily: '方正姚体' }}>演示主题标题占位</Text>
+        <Text style={{ fontSize: 18, color: '#8A9296', marginTop: 26, lineHeight: 1.7, fontFamily: '幼圆' }}>副标题占位：一句话说明这次分享的主题与期待。</Text>
+        <Box style={{ flexDirection: 'row', gap: 12, marginTop: 44, alignItems: 'center' }}>
+            <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#018985' }} />
+            <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#EC9804' }} />
+            <Box style={{ width: 10, height: 10, borderRadius: 5, background: '#02604F' }} />
+            <Text style={{ fontSize: 14, color: '#8A9296', marginLeft: 10, fontFamily: '幼圆' }}>汇报人占位 · 2026.XX.XX</Text>
+        </Box>
+    </Box>
+    <Box style={{ position: 'absolute', right: 44, bottom: 70, width: 450, height: 450, justifyContent: 'center', alignItems: 'center' }}>
+        <Image src='assets/cover_u_arc.png' style={{ width: 430, height: 430, objectFit: 'contain' }} />
+    </Box>
+    <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+        <Text style={{ fontSize: 12, color: '#8A9296' }}>@PAGE@ / @PAGES@</Text>
+    </Box>
+</Slide>

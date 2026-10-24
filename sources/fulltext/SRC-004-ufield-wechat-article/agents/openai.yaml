@@ -1,0 +1,6 @@
+interface:
+  display_name: "UField 公众号创作"
+  short_description: "按 UField 品牌规范制作工具文、招募文、圆桌实录与微信排版"
+  default_prompt: "使用 $ufield-wechat-article-codex-v1，将我提供的素材整理为 UField 推文，并交付 Markdown 与单份内容 HTML 预览。"
+policy:
+  allow_implicit_invocation: true

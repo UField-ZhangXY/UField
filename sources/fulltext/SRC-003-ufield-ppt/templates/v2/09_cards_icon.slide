@@ -1,0 +1,49 @@
+<Slide style={{ width: 1280, height: 720, background: '#FDFBF7', flexDirection: 'row' }}>
+    <Box style={{ width: 86, height: 720, position: 'relative' }}>
+        <Image src='assets/side_bar.png' style={{ width: 86, height: 720 }} />
+        <Box style={{ position: 'absolute', top: 29, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>陪育商业新生态</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 363, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>催化集体创造力</Text>
+        </Box>
+    </Box>
+    <Box style={{ flex: 1, position: 'relative', padding: 44 }}>
+        <Box style={{ position: 'absolute', top: 38, right: 44 }}>
+            <Image src='assets/ufield_logo.png' style={{ width: 96, height: 49 }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#3D4A4F', fontFamily: '幼圆' }}>页面标题占位</Text>
+        </Box>
+        <Box style={{ height: 3, background: '#EC9804', marginTop: 16 }} />
+        <Box style={{ flexDirection: 'row', gap: 28, marginTop: 34, height: 430 }}>
+            <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 14, borderTop: '5px solid #018985', padding: 26, boxShadow: '0 4px 18px rgba(61,74,79,0.08)' }}>
+                <Box style={{ width: 60, height: 60, borderRadius: 30, background: 'rgba(1,137,133,0.08)', justifyContent: 'center', alignItems: 'center' }}>
+                    <FAIcon name='seedling' style={{ fill: '#018985', width: 30, height: 30 }} />
+                </Box>
+                <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#3D4A4F', marginTop: 20, fontFamily: '幼圆' }}>概念标题占位一</Text>
+                <Box style={{ width: 40, height: 3, background: '#EC9804', marginTop: 12 }} />
+                <Text style={{ fontSize: 14, color: '#8A9296', marginTop: 16, lineHeight: 1.7, fontFamily: '幼圆' }}>概念描述占位：两三句话说清这个概念是什么、为什么重要，保持呼吸感。</Text>
+            </Box>
+            <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 14, borderTop: '5px solid #EC9804', padding: 26, boxShadow: '0 4px 18px rgba(61,74,79,0.08)' }}>
+                <Box style={{ width: 60, height: 60, borderRadius: 30, background: 'rgba(236,152,4,0.1)', justifyContent: 'center', alignItems: 'center' }}>
+                    <FAIcon name='comments' style={{ fill: '#EC9804', width: 30, height: 30 }} />
+                </Box>
+                <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#3D4A4F', marginTop: 20, fontFamily: '幼圆' }}>概念标题占位二</Text>
+                <Box style={{ width: 40, height: 3, background: '#018985', marginTop: 12 }} />
+                <Text style={{ fontSize: 14, color: '#8A9296', marginTop: 16, lineHeight: 1.7, fontFamily: '幼圆' }}>概念描述占位：补充一个真实的场景或练习，让人可以想象。</Text>
+            </Box>
+            <Box style={{ flex: 1, background: '#FFFFFF', borderRadius: 14, borderTop: '5px solid #02604F', padding: 26, boxShadow: '0 4px 18px rgba(61,74,79,0.08)' }}>
+                <Box style={{ width: 60, height: 60, borderRadius: 30, background: 'rgba(2,96,79,0.1)', justifyContent: 'center', alignItems: 'center' }}>
+                    <FAIcon name='compass' style={{ fill: '#02604F', width: 30, height: 30 }} />
+                </Box>
+                <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#3D4A4F', marginTop: 20, fontFamily: '幼圆' }}>概念标题占位三</Text>
+                <Box style={{ width: 40, height: 3, background: '#EC9804', marginTop: 12 }} />
+                <Text style={{ fontSize: 14, color: '#8A9296', marginTop: 16, lineHeight: 1.7, fontFamily: '幼圆' }}>概念描述占位：收束到它带来的改变或下一步行动。</Text>
+            </Box>
+        </Box>
+        <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+            <Text style={{ fontSize: 12, color: '#8A9296' }}>@PAGE@ / @PAGES@</Text>
+        </Box>
+    </Box>
+</Slide>

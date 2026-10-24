@@ -1,0 +1,53 @@
+<Slide style={{ width: 1280, height: 720, background: '#FDFBF7', flexDirection: 'row' }}>
+    <Box style={{ width: 86, height: 720, position: 'relative' }}>
+        <Image src='assets/side_bar.png' style={{ width: 86, height: 720 }} />
+        <Box style={{ position: 'absolute', top: 29, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>陪育商业新生态</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 363, left: 18, width: 40 }}>
+            <Text style={{ fontSize: 32, color: 'rgba(255,255,255,0.8)', textAlign: 'center', lineHeight: 1.18, fontFamily: '幼圆' }}>催化集体创造力</Text>
+        </Box>
+    </Box>
+    <Box style={{ flex: 1, position: 'relative', padding: 44 }}>
+        <Box style={{ position: 'absolute', top: 38, right: 44 }}>
+            <Image src='assets/ufield_logo.png' style={{ width: 96, height: 49 }} />
+        </Box>
+        <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+            <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#3D4A4F', fontFamily: '幼圆' }}>历程标题占位</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 240, left: 47, width: 1100, height: 257 }}>
+            <Image src='assets/flow_line.png' style={{ width: 1100, height: 257, objectFit: 'cover' }} />
+        </Box>
+        <Box style={{ position: 'absolute', top: 345, left: 181 }}>
+            <Box style={{ width: 16, height: 16, borderRadius: 8, background: '#018985', borderWidth: 3, borderColor: '#FDFBF7' }} />
+        </Box>
+        <Box style={{ position: 'absolute', top: 163, left: 130, width: 220 }}>
+            <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>阶段一 · 标题占位</Text>
+            <Text style={{ fontSize: 13, color: '#8A9296', marginTop: 6, fontFamily: '幼圆' }}>起点描述占位。</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 372, left: 438 }}>
+            <Box style={{ width: 16, height: 16, borderRadius: 8, background: '#02604F', borderWidth: 3, borderColor: '#FDFBF7' }} />
+        </Box>
+        <Box style={{ position: 'absolute', top: 497, left: 386, width: 220 }}>
+            <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>阶段二 · 标题占位</Text>
+            <Text style={{ fontSize: 13, color: '#8A9296', marginTop: 6, fontFamily: '幼圆' }}>行进描述占位。</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 357, left: 695 }}>
+            <Box style={{ width: 16, height: 16, borderRadius: 8, background: '#EC9804', borderWidth: 3, borderColor: '#FDFBF7' }} />
+        </Box>
+        <Box style={{ position: 'absolute', top: 163, left: 643, width: 220 }}>
+            <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>阶段三 · 标题占位</Text>
+            <Text style={{ fontSize: 13, color: '#8A9296', marginTop: 6, fontFamily: '幼圆' }}>转折描述占位。</Text>
+        </Box>
+        <Box style={{ position: 'absolute', top: 336, left: 951 }}>
+            <Box style={{ width: 16, height: 16, borderRadius: 8, background: '#31456B', borderWidth: 3, borderColor: '#FDFBF7' }} />
+        </Box>
+        <Box style={{ position: 'absolute', top: 497, left: 900, width: 220 }}>
+            <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#2C3E3F', fontFamily: '幼圆' }}>阶段四 · 标题占位</Text>
+            <Text style={{ fontSize: 13, color: '#8A9296', marginTop: 6, fontFamily: '幼圆' }}>到达描述占位。</Text>
+        </Box>
+        <Box style={{ position: 'absolute', right: 48, bottom: 24 }}>
+            <Text style={{ fontSize: 12, color: '#8A9296' }}>@PAGE@ / @PAGES@</Text>
+        </Box>
+    </Box>
+</Slide>
